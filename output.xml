@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-16T00:58:13.438905" rpa="false" schemaversion="5">
+<suite id="s1" name="ProecjtRobot" source="D:\ProecjtRobot">
+<suite id="s1-s1" name="Testcase" source="D:\ProecjtRobot\Testcase">
+<suite id="s1-s1-s1" name="User" source="D:\ProecjtRobot\Testcase\User">
+<suite id="s1-s1-s1-s1" name="Login" source="D:\ProecjtRobot\Testcase\User\Login.robot">
+<test id="s1-s1-s1-s1-t1" name="test" line="9">
+<kw name="Validate UnSuccessful login">
+<msg time="2024-07-16T00:58:13.675164" level="FAIL">Variable '${userName}' not found.</msg>
+<arg>Validate UnSuccessful login</arg>
+<arg>${userName}</arg>
+<arg>${password}</arg>
+<status status="FAIL" start="2024-07-16T00:58:13.674136" elapsed="0.001028">Variable '${userName}' not found.</status>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-16T00:58:13.676163" elapsed="0.000969"/>
+</kw>
+<status status="FAIL" start="2024-07-16T00:58:13.674136" elapsed="0.016058">Variable '${userName}' not found.</status>
+</test>
+<status status="FAIL" start="2024-07-16T00:58:13.483785" elapsed="0.207411"/>
+</suite>
+<status status="FAIL" start="2024-07-16T00:58:13.482788" elapsed="0.211401"/>
+</suite>
+<status status="FAIL" start="2024-07-16T00:58:13.480792" elapsed="0.214394"/>
+</suite>
+<status status="FAIL" start="2024-07-16T00:58:13.440900" elapsed="0.255282"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="ProecjtRobot">ProecjtRobot</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Testcase">ProecjtRobot.Testcase</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="User">ProecjtRobot.Testcase.User</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1" name="Login">ProecjtRobot.Testcase.User.Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
